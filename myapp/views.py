@@ -16,5 +16,5 @@ def success_view(request):
 from django.shortcuts import render
 
 def home(request):
-    return render(request, "home.html")  # Ensure "home.html" exists in templates
+    return render(request, "myapp/home.html")  # Ensure "home.html" exists in templates
 
